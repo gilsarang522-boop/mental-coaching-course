@@ -16,7 +16,8 @@ import {
   Calendar,
   Clock,
   Banknote,
-  Phone
+  Phone,
+  CheckCircle
 } from 'lucide-react';
 
 export default function App() {
@@ -251,6 +252,31 @@ export default function App() {
             <div className="p-6 glass-card">
               <h4 className="font-bold text-blue-400 mb-2">철저한 비밀보장</h4>
               <p className="text-xs text-gray-400">안전한 심리적 공간과 정보 보호 원칙 준수</p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      {/* 과정혜택 */}
+      <section className="py-24 px-6 max-w-4xl mx-auto">
+        <div className="glass-card p-10 md:p-12 border-t-4 border-purple-500">
+          <h3 className="text-3xl font-bold mb-8 text-center">과정혜택</h3>
+          <div className="space-y-6">
+            <div className="flex items-start gap-4">
+              <CheckCircle className="w-6 h-6 text-purple-400 shrink-0 mt-0.5" />
+              <p className="text-lg text-gray-200">한국멘탈코칭센터 명의의 <span className="font-bold text-white">‘비즈니스멘탈코칭 수료증’</span> 발급</p>
+            </div>
+            <div className="flex items-start gap-4">
+              <CheckCircle className="w-6 h-6 text-purple-400 shrink-0 mt-0.5" />
+              <p className="text-lg text-gray-200"><span className="font-bold text-white">비즈니스멘탈코칭 전문가 자격 과정 자격증</span> 발급 (등록된 자격증)</p>
+            </div>
+            <div className="flex items-start gap-4">
+              <CheckCircle className="w-6 h-6 text-purple-400 shrink-0 mt-0.5" />
+              <p className="text-lg text-gray-200">우수 수료자는 추후 <span className="font-bold text-white">비즈니스멘탈코치로서의 활동 기회</span> 부여</p>
+            </div>
+            <div className="flex items-start gap-4">
+              <CheckCircle className="w-6 h-6 text-purple-400 shrink-0 mt-0.5" />
+              <p className="text-lg text-gray-200">한국멘탈코칭센터 각종 <span className="font-bold text-white">행사 및 세미나 회원 할인</span></p>
             </div>
           </div>
         </div>
