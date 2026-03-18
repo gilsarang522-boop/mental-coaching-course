@@ -257,6 +257,39 @@ export default function App() {
         </div>
       </section>
 
+      {/* 수강 대상 */}
+      <section className="py-24 px-6">
+        <div className="max-w-4xl mx-auto">
+          <div className="text-center mb-16">
+            <h3 className="text-3xl font-bold mb-4">수강 대상</h3>
+            <p className="text-gray-400 text-lg">이런 분들께 적극 추천합니다</p>
+          </div>
+          
+          <div className="space-y-2">
+            <div className="glass-card p-3 md:p-4 flex items-center gap-4 border-l-4 border-blue-500 hover:bg-white/5 transition-all">
+              <CheckCircle className="w-6 h-6 text-blue-400 shrink-0" />
+              <p className="text-base md:text-lg text-gray-200">조직의 성과 향상과 팀원들의 멘탈 관리가 고민인 <span className="font-bold text-white">리더 및 관리자</span></p>
+            </div>
+            <div className="glass-card p-3 md:p-4 flex items-center gap-4 border-l-4 border-purple-500 hover:bg-white/5 transition-all">
+              <CheckCircle className="w-6 h-6 text-purple-400 shrink-0" />
+              <p className="text-base md:text-lg text-gray-200"><span className="font-bold text-white">사내 코치, HR 담당자, 기업 교육(HRD) 담당자</span></p>
+            </div>
+            <div className="glass-card p-3 md:p-4 flex items-center gap-4 border-l-4 border-blue-500 hover:bg-white/5 transition-all">
+              <CheckCircle className="w-6 h-6 text-blue-400 shrink-0" />
+              <p className="text-base md:text-lg text-gray-200">스스로의 멘탈을 강화하고 한 단계 더 도약하고 싶은 <span className="font-bold text-white">직장인 및 개인</span></p>
+            </div>
+            <div className="glass-card p-3 md:p-4 flex items-center gap-4 border-l-4 border-purple-500 hover:bg-white/5 transition-all">
+              <CheckCircle className="w-6 h-6 text-purple-400 shrink-0" />
+              <p className="text-base md:text-lg text-gray-200">사업 성장 목표를 달성하고 싶은 <span className="font-bold text-white">자영업자·경영자·프리랜서</span></p>
+            </div>
+            <div className="glass-card p-3 md:p-4 flex items-center gap-4 border-l-4 border-blue-500 hover:bg-white/5 transition-all">
+              <CheckCircle className="w-6 h-6 text-blue-400 shrink-0" />
+              <p className="text-base md:text-lg text-gray-200">업무 스트레스로 지치고 <span className="font-bold text-white">번아웃과 무기력함으로 의욕이 상실되신 분</span></p>
+            </div>
+          </div>
+        </div>
+      </section>
+
       {/* 과정혜택 */}
       <section className="py-24 px-6 max-w-4xl mx-auto">
         <div className="glass-card p-10 md:p-12 border-t-4 border-purple-500">
