@@ -4,6 +4,8 @@
  */
 
 import { useState } from 'react';
+const coach1Image = "data:image/png;base64,/9j/4AAQSkZJRgABAQAAAQABAAD...";
+const coach2Image = "data:image/png;base64,/9j/4AAQSkZJRgABAQAAAQABAAD...";
 import {
   Smile,
   Target,
@@ -819,7 +821,7 @@ export default function App() {
             {/* 코치 1 */}
             <div className="glass-card p-8 flex flex-col items-center text-center">
               <div className="w-48 h-48 rounded-full overflow-hidden mb-6 border-4 border-blue-500/30">
-                <img src="/coach1.png" alt="송철우 코치" className="w-full h-full object-cover object-top" referrerPolicy="no-referrer" onError={(e) => { e.currentTarget.src = 'https://picsum.photos/seed/coach1/400/400'; }} />
+                <img src={coach1Image} alt="송철우 코치" className="w-full h-full object-cover object-top" referrerPolicy="no-referrer" onError={(e) => { e.currentTarget.src = 'https://picsum.photos/seed/coach1/400/400'; }} />
               </div>
               <h4 className="text-2xl font-bold mb-2">송철우</h4>
               <p className="text-blue-400 font-medium mb-6">KMCC 수석코치</p>
@@ -853,7 +855,7 @@ export default function App() {
             {/* 코치 2 */}
             <div className="glass-card p-8 flex flex-col items-center text-center">
               <div className="w-48 h-48 rounded-full overflow-hidden mb-6 border-4 border-blue-500/30">
-                <img src="/coach2.png" alt="양흥열 코치" className="w-full h-full object-cover object-top" referrerPolicy="no-referrer" onError={(e) => { e.currentTarget.src = 'https://picsum.photos/seed/coach2/400/400'; }} />
+                <img src={coach2Image} alt="양흥열 코치" className="w-full h-full object-cover object-top" referrerPolicy="no-referrer" onError={(e) => { e.currentTarget.src = 'https://picsum.photos/seed/coach2/400/400'; }} />
               </div>
               <h4 className="text-2xl font-bold mb-2">양흥열</h4>
               <p className="text-blue-400 font-medium mb-6">KMCC 수석코치</p>
